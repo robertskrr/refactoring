@@ -68,6 +68,31 @@ correcto, sera H. No sera visible al exterior.
 letra correspondiente. Este método sera invocado cuando se construya el objeto. Puedes
 dividir el método para que te sea más fácil. No será visible al exterior.
 ● Métodos set de cada parámetro, excepto de DNI.
+
+*Comentario de Juanma*
+
+Cambios realizados:
+
+Renombramiento de constantes:
+
+-PESOBAJO → PESO_BAJO, PESOIDEAL → PESO_IDEAL, SOBREPESO → SOBRE_PESO para cumplir con las convenciones de nombres.
+
+Mejoras en validación:
+
+-Agregado control para asegurar que la altura sea mayor a 0 en el método calcularIMC.
+
+Simplificación de métodos:
+
+-Uso de expresiones condicionales más claras en esMayorDeEdad y validarSexo.
+
+Documentación:
+
+-Añadidos comentarios de bloque para los métodos principales explicando su funcionalidad.
+
+Formato:
+
+Mejora en la legibilidad del método toString utilizando String.format.
+
 ## Ejercicio 4
 Crea la clase Pizza con los atributos y métodos que consideres necesarios en base a las
 siguientes especificaciones:
